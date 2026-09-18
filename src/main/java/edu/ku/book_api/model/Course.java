@@ -1,0 +1,10 @@
+package edu.ku.book_api.model;
+
+public record Course(
+        Long id,
+        String code,
+        String title,
+        int credits,
+        String instructor
+) {
+}
